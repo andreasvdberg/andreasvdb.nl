@@ -1,2 +1,0 @@
-# andreasvdb.nl
-Personal website
