@@ -563,6 +563,7 @@ h6 {
 .home .hero-txt {
     color: #fff;
     text-align: center;
+    font-size: 18px;
 }
 
 .home .hero-txt .hero-title {
@@ -615,6 +616,7 @@ h6 {
     height: 102px;
     -webkit-transition: background-color 0.3s, height 0.3s;
     transition: background-color 0.3s, height 0.3s;
+    background-color: #fafafa;
 }
 
 .st-navbar-mini .navbar-default {
@@ -1413,7 +1415,6 @@ ul.styled-list.list-star li:before {
 }
 
 .lijn {
-    margin-top: 30px;
     height: 2px;
     background-color: #c2344f;
 }
