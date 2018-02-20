@@ -1,0 +1,17 @@
+<svg width="39" height="18" viewBox="0 0 39 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>menu</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-127 364)">
+<g id="menu">
+<g id="Rectangle 3">
+<use xlink:href="#path0_fill" transform="translate(127.63 -363.804)"/>
+</g>
+<g id="Rectangle 3.1">
+<use xlink:href="#path0_fill" transform="translate(127.63 -352)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 1C 0 0.447715 0.447715 0 1 0L 37.1696 0C 37.7219 0 38.1696 0.447715 38.1696 1L 38.1696 4.16882C 38.1696 4.7211 37.7219 5.16882 37.1696 5.16882L 0.999999 5.16882C 0.447714 5.16882 0 4.7211 0 4.16882L 0 1Z"/>
+</defs>
+</svg>

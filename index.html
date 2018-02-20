@@ -3,217 +3,139 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-    <title>Rendomar | appartment rental Spain</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Stryve - webdesign</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="css/style.scss" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff"> </head>
 
-<body>
-    <nav class="navbar navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a class="page-scroll" href="#home">Home</a></li>
-                    <li><a class="page-scroll" href="#photo">Photo</a></li>
-                    <li><a class="page-scroll" href="#contact">Contact</a></li>
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container-fluid">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="logo-stryve" src="img/black.svg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"> <a class=" blanc nav-link js-scroll-trigger" href="#about">About</a> </li>
+                    <li class="nav-item"> <a class=" blanc nav-link js-scroll-trigger" href="#about">About</a> </li>
+                    <li class="nav-item"> <a class=" blanc nav-link js-scroll-trigger" href="#services">Services</a> </li>
+                    <li class="nav-item"> <a class=" btn-danger text-white  nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
             </div>
-            <!--/.nav-collapse -->
         </div>
     </nav>
-    <div id="home">
-        <div class="text">
-            <br>
-            <br>
-            <br>
-            <h1>Rendomar appartments.</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <br> Morbi hendrerit nunc vitae pulvinar gravida. Suspendisse mollis nisi ut semper imperdiet.</p>
-        </div>
-    </div>
-    <div id="photo">
-        <div class="container">
-            <div class="row">
-                <div class="text2">
-                    <div class="col-md-3">
-                        <h1>Photo's.</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit nunc vitae pulvinar gravida. Suspendisse mollis nisi ut semper imperdiet.</p>
+    <header>
+        <section>
+            <div class="margin-header"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h1>Lorem Ipsum</h1>
+                        <h3>Lorem Ipsum dolor sit.</h3>
+                        <p class="header-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                        <button class="btn header-btn">Lorem</button>
                     </div>
                     <div class="col-md-1"></div>
-                    <div class="col-md-8">
-                        <div class="photo">
-                            <!-- #region Jssor Slider Begin -->
-                            <!-- Source: https://www.jssor.com -->
-                            <script src="js/jssor.slider-25.0.7.min.js" type="text/javascript"></script>
-                            <script type="text/javascript">
-                                jssor_1_slider_init = function () {
-                                    var jssor_1_options = {
-                                        $AutoPlay: 1
-                                        , $Idle: 2000
-                                        , $SlideEasing: $Jease$.$InOutSine
-                                        , $ArrowNavigatorOptions: {
-                                            $Class: $JssorArrowNavigator$
-                                        }
-                                        , $BulletNavigatorOptions: {
-                                            $Class: $JssorBulletNavigator$
-                                        }
-                                    };
-                                    var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-                                    /*#region responsive code begin*/
-                                    /*remove responsive code if you don't want the slider scales while window resizing*/
-                                    function ScaleSlider() {
-                                        var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
-                                        if (refSize) {
-                                            refSize = Math.min(refSize, 980);
-                                            jssor_1_slider.$ScaleWidth(refSize);
-                                        }
-                                        else {
-                                            window.setTimeout(ScaleSlider, 30);
-                                        }
-                                    }
-                                    ScaleSlider();
-                                    $Jssor$.$AddEvent(window, "load", ScaleSlider);
-                                    $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-                                    $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-                                    /*#endregion responsive code end*/
-                                };
-                            </script>
-                            <style>
-                                /* jssor slider loading skin double-tail-spin css */
-                                
-                                .jssorl-004-double-tail-spin img {
-                                    animation-name: jssorl-004-double-tail-spin;
-                                    animation-duration: 1.2s;
-                                    animation-iteration-count: infinite;
-                                    animation-timing-function: linear;
-                                }
-                                
-                                @keyframes jssorl-004-double-tail-spin {
-                                    from {
-                                        transform: rotate(0deg);
-                                    }
-                                    to {
-                                        transform: rotate(360deg);
-                                    }
-                                }
-                                
-                                .jssorb052 .i {
-                                    position: absolute;
-                                    cursor: pointer;
-                                }
-                                
-                                .jssorb052 .i .b {
-                                    fill: #000;
-                                    fill-opacity: 0.3;
-                                    stroke: #fff;
-                                    stroke-width: 400;
-                                    stroke-miterlimit: 10;
-                                    stroke-opacity: 0.7;
-                                }
-                                
-                                .jssorb052 .i:hover .b {
-                                    fill-opacity: .7;
-                                }
-                                
-                                .jssorb052 .iav .b {
-                                    fill-opacity: 1;
-                                }
-                                
-                                .jssorb052 .i.idn {
-                                    opacity: .3;
-                                }
-                                
-                                .jssora053 {
-                                    display: block;
-                                    position: absolute;
-                                    cursor: pointer;
-                                }
-                                
-                                .jssora053 .a {
-                                    fill: none;
-                                    stroke: #fff;
-                                    stroke-width: 640;
-                                    stroke-miterlimit: 10;
-                                }
-                                
-                                .jssora053:hover {
-                                    opacity: .8;
-                                }
-                                
-                                .jssora053.jssora053dn {
-                                    opacity: .5;
-                                }
-                                
-                                .jssora053.jssora053ds {
-                                    opacity: .3;
-                                    pointer-events: none;
-                                }
-                            </style>
-                            <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;">
-                                <!-- Loading Screen -->
-                                <div data-u="loading" class="jssorl-004-double-tail-spin" style="position:absolute;top:0px;left:0px;text-align:center;background-color:rgba(0,0,0,0.7);"> <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/double-tail-spin.svg" /> </div>
-                                <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
-                                    <div> <img data-u="image" src="img/013.jpg" /> </div>
-                                    <div> <img data-u="image" src="img/014.jpg" /> </div>
-                                    <div> <img data-u="image" src="img/015.jpg" /> </div>
-                                    <div> <img data-u="image" src="img/017.jpg" /> </div>
-                                    <div> <img data-u="image" src="img/019.jpg" /> </div>
-                                    <div> <img data-u="image" src="img/020.jpg" /> </div>
-                                    <div> <img data-u="image" src="img/021.jpg" /> </div>
-                                    <div> <img data-u="image" src="img/022.jpg" /> </div>
-                                    <div> <img data-u="image" src="img/025.jpg" /> </div>
-                                    <div> <img data-u="image" src="img/018.jpg" /> </div>
-                                    <div> <img data-u="image" src="img/026.jpg" /> </div>
-                                    <div> <img data-u="image" src="img/027.jpg" /> </div> <a data-u="any" href="https://www.jssor.com" style="display:none">html carousel</a> </div>
-                                <!-- Bullet Navigator -->
-                                <div data-u="navigator" class="jssorb052" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
-                                    <div data-u="prototype" class="i" style="width:16px;height:16px;">
-                                        <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                                            <circle class="b" cx="8000" cy="8000" r="5800"></circle>
-                                        </svg>
+                    <div class="col-md-6">
+                        <div class="slider" data-am-cardslider>
+                            <input type="radio" name="card-slider" id="card-slider-1" />
+                            <input type="radio" name="card-slider" id="card-slider-2" checked />
+                            <input type="radio" name="card-slider" id="card-slider-3" />
+                            <div class="cs-slide-container">
+                                <label for="card-slider-1" class="cs-slide">
+                                    <div class="cs-slide-content"> <img class="header-icon" src="img/coding_icon.svg">
+                                        <p>Slide 1</p>
                                     </div>
-                                </div>
-                                <!-- Arrow Navigator -->
-                                <div data-u="arrowleft" class="jssora053" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
-                                    <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                                        <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
-                                    </svg>
-                                </div>
-                                <div data-u="arrowright" class="jssora053" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
-                                    <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                                        <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
-                                    </svg>
-                                </div>
+                                </label>
+                                <label for="card-slider-2" class="cs-slide">
+                                    <div class="cs-slide-content"> <img class="header-icon" src="img/ui_design_icon.svg">
+                                        <p>Slide 2</p>
+                                    </div>
+                                </label>
+                                <label for="card-slider-3" class="cs-slide">
+                                    <div class="cs-slide-content"> <img class="header-icon" src="img/coding_icon.svg">
+                                        <p> Slide 3</p>
+                                    </div>
+                                </label>
                             </div>
-                            <script type="text/javascript">
-                                jssor_1_slider_init();
-                            </script>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+    </header>
+    <section> </section>
+    <section> </section>
+    <section> </section> <a class="return-to-top js-scroll-trigger  " href="#page-top"><i class="fas fa-chevron-up"></i></a>
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h3 class="formulier">Neem contact met ons op</h3>
+            <form name="contactform" method="post" action="php/mail.php">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="display-block label">
+                            <label for="name">Naam</label>
+                            <div class="form-group">
+                                <input type="text" class="form-control no-border input-text" id="name" name="name" required> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="display-block">
+                            <label for="name">E-Mail</label>
+                            <div class="form-group">
+                                <input type="email" class="form-control no-border input-text" id="email" name="email" required> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="display-block">
+                            <label for="name">Mobiel</label>
+                            <div class="form-group">
+                                <input type="text" class="form-control no-border input-text" id="mobile" name="mobile" required> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="margin-form"></div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="display-block">
+                            <label for="name">Onderwerp</label>
+                            <div class="form-group">
+                                <input type="text" class="form-control no-border input-text" id="subject" name="subject" required> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="display-block">
+                            <label for="name">Bericht</label>
+                            <div class="form-group">
+                                <textarea class="form-control no-border input-text-message" type="textarea" id="message" maxlength="140" rows="7"></textarea> <span class="help-block"></span> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <input type="submit" value="verstuur" class="btn form">
+                    </div>
+                </div>
+            </form>
         </div>
-    </div>
-    <div class="text"></div>
-    <!-- /.container -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    </section>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
